@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>盛大游戏-游戏创造世界</title>
+    <link rel="shortcut icon" href="img/img1/favicon.ico">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/header.css">
+    <script src="js/jquery.min.js"></script>
+    <script>
+        $(function(){
+            $(".search-btn").mouseenter(function(){
+                $(".search-box").addClass("show")
+            }).mouseout(function(){
+                $(".search-box").removeClass("show")
+            })
+            $(".input").mouseenter(function(){
+                $(".search-box").addClass("show")
+            }).mouseout(function(){
+                $(".search-box").removeClass("show")
+            })
+        })
+
+
+
+
+
+
+    </script>
+</head>
+<body>
+     <div class="header">
+         <a class="logo" href="index.html"></a>
+         <ul class="nav-list">
+             <li class="item active"><a href="">首&nbsp;&nbsp;页</a></li>
+             <li class="item">
+                 <a href="">关于我们</a>
+                 <dl>
+                     <dd><a href="">公司简介</a></dd>
+                     <dd><a href="">发展历程</a></dd>
+                     <dd><a href="">企业文化</a></dd>
+                     <dd><a href="">管理团队</a></dd>
+                     <dd><a href="">获得荣耀</a></dd>
+                     <dd><a href="">企业战略</a></dd>
+                 </dl>
+             </li>
+             <li class="item">
+                 <a href="">产品介绍</a>
+                 <dl>
+                     <dd><a href="">传奇系列</a></dd>
+                     <dd><a href="">传奇世界系列</a></dd>
+                     <dd><a href="">龙之谷系列</a></dd>
+                     <dd><a href="">辐射避难所系列</a></dd>
+                     <dd><a href="">其他游戏</a></dd>
+                 </dl>
+             </li>
+             <li class="item">
+                 <a href="">新闻动态</a>
+                 <dl>
+                     <dd><a href="">企业动态</a></dd>
+                     <dd><a href="">产品资讯</a></dd>
+                     <dd><a href="">媒体报道</a></dd>
+                 </dl>
+             </li>
+             <li class="item">
+                 <a href="">加入我们</a>
+                 <dl>
+                     <dd><a href="">社会招聘</a></dd>
+                     <dd><a href="">校园招聘</a></dd>
+                     <dd><a href="">实习机会</a></dd>
+                 </dl>
+             </li>
+             <li class="item">
+                 <a href="">素材下载</a>
+                 <dl>
+                     <dd><a href="">企业标志</a></dd>
+                     <dd><a href="">企业图书</a></dd>
+                     <dd><a href="">企业介绍</a></dd>
+                     <dd><a href="">人才白皮书</a></dd>
+                 </dl>
+             </li>
+             <li><a href="">联系我们</a></li>
+         </ul>
+         <div class="search-wrap">
+             <div class="search-box">
+                 <input class="input" placeholder="请输入关键字" id="s_key">
+                 <div class="search-btn">
+                     <div class="btn-back"></div>
+                 </div>
+             </div>
+         </div>
+     </div>
+</body>
+</html>
